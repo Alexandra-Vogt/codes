@@ -1,16 +1,26 @@
-fn modxor(val) -> u8 {
+fn modxor (val) -> u8 {
     val
 }
 
-fn crypt(msg, cipher) -> str {
+fn numgen () {
+    
+}
+
+fn mkhash () {
+    
+}
+
+fn crypt (msg, cipher) -> str {
+    if msg.length != cipher.length;
     for byte in cipher.as_bytes(){
+	
     }
 }
 
 
-fn main() {
+fn main () {
     let a = "hello world";
-    let b = "3134rfdfgva";
+    let b = "3134r3d5fv4";
     let c = a ^ b;
     let d = c ^ d;
     println!("{}", a);
